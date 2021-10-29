@@ -1,0 +1,46 @@
+.h1__block {
+  text-align: center;
+  padding: 15px;
+}
+
+#square__white {
+  height: 263px;
+  width: 246px;
+  background-color: #f4f3ee;
+  border-radius: 10px 10px;
+  padding: 10px;
+}
+
+#square__red {
+  height: 263px;
+  width: 246px;
+  background-color: #c32c72;
+  border-radius: 10px 10px;
+  padding: 10px;
+}
+
+#square__bordercoloured {
+  height: 263px;
+  width: 246px;
+  border: 1px solid;
+  border-color: #c32c72;
+  border-radius: 10px 10px;
+  padding: 10px;
+}
+
+.col {
+  padding: 50px;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  #square__white {
+    height: 250px;
+    width: 100%;
+  }
+}
