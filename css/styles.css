@@ -6,6 +6,10 @@
   color: #c32c72;
 }
 
+.bg-light {
+  background-color: #f4f3ee !important;
+}
+
 .h1__block {
   text-align: center;
   padding: 30px;
@@ -35,11 +39,6 @@
   padding: 10px;
 }
 
-/*.row {
-  display: grid;
-  grid-template-columns: repeat(4, 2fr);
-  grid-gap: 15px;
-}*/
 @media (max-width: 700px) {
   .row {
     display: -ms-grid;
